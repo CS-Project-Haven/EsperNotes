@@ -1,0 +1,67 @@
+body {
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: white;
+  overflow: hidden;
+}
+
+img {
+  margin: 20px;
+}
+
+.top {
+  background: linear-gradient(to right, #232526, #414345);
+  overflow: hidden;
+  border: solid;
+  border-color: black;
+  border-width: 1;
+  border-radius: 5px;
+  padding: 14px 16px;
+}
+
+.dialog {
+  color: white;
+  background: linear-gradient(to right, #232526, #414345);
+  overflow: hidden;
+  border: solid;
+  border-color: black;
+  border-width: 1;
+  border-radius: 5px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background: linear-gradient(to left, #232526, #414345);
+  overflow: hidden;
+  border: solid;
+  border-width: 1;
+  border-radius: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  transition-duration: 1s;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #8094f4;
+  color: white;
+}
